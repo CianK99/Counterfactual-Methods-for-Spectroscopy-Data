@@ -1,0 +1,19 @@
+name: glacierrsfanalysis
+channels:
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - stumpy=1.9.2
+  - cudnn=8.9
+  - cudatoolkit=11.8
+  - numpy=1.26.4
+  - scikit-learn=1.3.2
+  - python=3.10
+  - jupyterlab
+  - fastdtw=0.3.4
+  - matplotlib=3.6
+  - pandas=1.5
+  - pip
+  - cuda-cupti=11.8
+  - ipywidgets
