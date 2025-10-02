@@ -112,7 +112,7 @@ def main():
     
     A = parser.parse_args()
 
-
+    install_repository("http://127.0.0.1:8765/repo2.json", refresh=True)
     print("Available repositories:", list_repositories())
 
     logger = logging.getLogger(__name__)
@@ -135,7 +135,7 @@ def main():
         result_writer.write_head()
 
     # 1. Load data
-    X, y = load_dataset(A.dataset, repository="wildboar/ucr")
+    X, y = load_dataset(A.dataset, repository="repotwo/ucr")
 
 
     # Convert positive and negative labels to 1 and 0
