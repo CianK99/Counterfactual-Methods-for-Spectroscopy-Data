@@ -1,0 +1,16 @@
+{
+  "binary": {
+    "1": [
+      "cortBone"
+    ],
+    "0": [
+      "muscle"
+    ]
+  },
+  "note": "DRS tissue classification - binary labels correspond to these tissue types",
+  "wavelength_range": "355.0-1849.7 nm",
+  "preprocessing": "Min-max normalization (appropriate for DRS)",
+  "total_samples": 2000,
+  "train_samples": 1600,
+  "test_samples": 400
+}

@@ -1,0 +1,11 @@
+{
+  "binary": {
+    "1": [
+      "COVID-19"
+    ],
+    "0": [
+      "Healthy"
+    ]
+  },
+  "note": "binary labels correspond to these original class IDs"
+}

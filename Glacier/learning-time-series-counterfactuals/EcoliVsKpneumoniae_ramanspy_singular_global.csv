@@ -1,0 +1,11 @@
+dataset,fold_id,method,classifier_accuracy,autoencoder_loss,best_lr,proximity,validity,lof_score,relative_proximity,compactness,pred_margin_weight,step_weight_type,threshold_tau
+EcoliVsKpneumoniae_ramanspy_singular,1,1dCNN autoencoder,0.9775,0.0008136126562021673,0.001,0.9632834457976372,0.99,0.0,0.2409666297175665,0.56312,0.8,global,0.8
+EcoliVsKpneumoniae_ramanspy_singular,1,No autoencoder,0.9775,0,0.001,0.5236895554179622,0.99,0.0,0.13100163585066632,0.81581,0.8,global,0.8
+EcoliVsKpneumoniae_ramanspy_singular,2,1dCNN autoencoder,0.98125,0.0008462263504043221,0.001,1.14025012054124,0.96,0.0,0.29683188445367886,0.59926,0.8,global,0.8
+EcoliVsKpneumoniae_ramanspy_singular,2,No autoencoder,0.98125,0,0.001,0.5777193493214926,0.93,0.0,0.15039290069362427,0.82071,0.8,global,0.8
+EcoliVsKpneumoniae_ramanspy_singular,3,1dCNN autoencoder,0.96625,0.0007760950247757137,0.001,0.9854261209174084,1.0,0.0,0.25108463484839344,0.58385,0.8,global,0.8
+EcoliVsKpneumoniae_ramanspy_singular,3,No autoencoder,0.96625,0,0.001,0.5595956959589886,1.0,0.0,0.14258388122672006,0.80907,0.8,global,0.8
+EcoliVsKpneumoniae_ramanspy_singular,4,1dCNN autoencoder,0.975,0.0007783099426887929,0.001,1.0814039061790788,0.99,0.01,0.27257921044994404,0.63504,0.8,global,0.8
+EcoliVsKpneumoniae_ramanspy_singular,4,No autoencoder,0.975,0,0.001,0.5490353310255659,0.97,0.01,0.13839012064312786,0.81532,0.8,global,0.8
+EcoliVsKpneumoniae_ramanspy_singular,5,1dCNN autoencoder,0.9625,0.0008631981909275055,0.001,1.0566209330920993,1.0,0.0,0.26796698271040187,0.67796,0.8,global,0.8
+EcoliVsKpneumoniae_ramanspy_singular,5,No autoencoder,0.9625,0,0.001,0.5698943092052137,1.0,0.0,0.14452946531605276,0.81493,0.8,global,0.8

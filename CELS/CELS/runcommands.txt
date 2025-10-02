@@ -1,0 +1,26 @@
+Global
+python3 main.py \
+    --custom_npz /home/cok7/MScProject/cels_datasets/RamanCOVID19_ramanspy_preprocessed.npz \
+    --dataset RamanCOVID19_ramanspy_preprocessed \
+    --pname CELS_RamanCOVID19_ramanspy_preprocessed_Global \
+    --mode global \
+    --run_mode local \
+    --dataset_type test \
+    --algo cf \
+    --seed_value 4 \
+    --enable_seed True \
+    --background_data train
+
+
+Local
+python3 main.py \
+    --custom_npz /home/cok7/MScProject/cels_datasets/RamanCOVID19_ramanspy_preprocessed.npz \
+    --dataset RamanCOVID19_ramanspy_preprocessed \
+    --pname CELS_RamanCOVID19_ramanspy_preprocessed_Local \
+    --mode local \
+    --run_mode local \
+    --dataset_type test \
+    --algo cf \
+    --seed_value 4 \
+    --enable_seed True \
+    --background_data train

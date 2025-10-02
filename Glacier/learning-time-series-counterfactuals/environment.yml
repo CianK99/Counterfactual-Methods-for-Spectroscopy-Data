@@ -1,0 +1,19 @@
+name: mach-ext
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - matplotlib=3.6
+  - cudatoolkit=11.2
+  - cudnn=8.1
+  - jupyterlab
+  - pip
+  - stumpy=1.9.2
+  - fastdtw=0.3.4
+  - scikit-learn=1.3.2
+  - numpy=1.26.4
+  - pandas=1.5
+  - pip:
+      - wildboar==1.1.0
+      - tensorflow==2.10

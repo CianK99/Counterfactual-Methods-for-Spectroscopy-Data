@@ -1,0 +1,11 @@
+{
+  "binary": {
+    "1": [
+      "COVID-19"
+    ],
+    "0": [
+      "Healthy"
+    ]
+  },
+  "note": "CELS NPZ uses 0/1 as above"
+}

@@ -1,0 +1,13 @@
+{
+  "binary": {
+    "1": [
+      3,
+      4
+    ],
+    "0": [
+      9,
+      10
+    ]
+  },
+  "note": "binary labels correspond to these original class IDs"
+}
